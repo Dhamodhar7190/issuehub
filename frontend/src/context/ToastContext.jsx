@@ -5,7 +5,7 @@
  *   const { showToast } = useToast();
  *   showToast('Operation successful!', 'success');
  */
-
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState } from 'react';
 import Toast from '../components/Toast';
 

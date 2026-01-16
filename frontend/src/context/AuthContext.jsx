@@ -9,7 +9,7 @@
  * Usage:
  *   const { user, login, logout } = useAuth();
  */
-
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState, useEffect } from 'react';
 import { authAPI } from '../api';
 
