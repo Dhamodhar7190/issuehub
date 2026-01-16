@@ -9,6 +9,7 @@ A modern, full-stack bug tracking application built with FastAPI and React. Issu
 ## 📋 Table of Contents
 
 - [Features](#-features)
+- [Screenshots](#-screenshots)
 - [Tech Stack](#-tech-stack)
 - [Architecture](#-architecture)
 - [Prerequisites](#-prerequisites)
@@ -54,6 +55,23 @@ A modern, full-stack bug tracking application built with FastAPI and React. Issu
 - ✅ Loading states and spinners
 - ✅ Form validation
 - ✅ Modal dialogs for create/edit operations
+
+## 📸 Screenshots
+
+### SignUp Page
+![SignUp](screenshots/signup.png)
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Projects Dashboard
+![Projects List](screenshots/projects-list.png)
+
+### Issues List with Filters
+![Issues List](screenshots/issues-list.png)
+
+### Issue Detail with Comments
+![Issue Detail](screenshots/issue-detail.png)
 
 ## 🛠 Tech Stack
 
