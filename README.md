@@ -19,7 +19,6 @@ A modern, full-stack bug tracking application built with FastAPI and React. Issu
 - [Project Structure](#-project-structure)
 - [Key Design Decisions](#-key-design-decisions)
 - [Known Limitations](#-known-limitations)
-- [Future Improvements](#-future-improvements)
 
 ## ✨ Features
 
