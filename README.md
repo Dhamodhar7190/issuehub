@@ -15,6 +15,7 @@ A modern, full-stack bug tracking application built with FastAPI and React. Issu
 - [Prerequisites](#-prerequisites)
 - [Setup Instructions](#-setup-instructions)
 - [Running the Application](#-running-the-application)
+- [Demo Credentials](#-demo-credentials)
 - [Running Tests](#-running-tests)
 - [API Documentation](#-api-documentation)
 - [Project Structure](#-project-structure)
@@ -53,8 +54,10 @@ A modern, full-stack bug tracking application built with FastAPI and React. Issu
 - ✅ Clean, responsive Material Design-inspired UI
 - ✅ Toast notifications for user feedback
 - ✅ Loading states and spinners
-- ✅ Form validation
+- ✅ Form validation with real-time feedback
+- ✅ Password visibility toggle (eye icon)  ← ADD THIS
 - ✅ Modal dialogs for create/edit operations
+- ✅ Smooth transitions and animations
 
 ## 📸 Screenshots
 
@@ -271,6 +274,30 @@ Frontend will run at: **http://localhost:5173**
 2. Sign up for a new account or use demo credentials:
    - Email: `alice@example.com`
    - Password: `password123`
+
+## 🎮 Demo Credentials
+
+After running the seed script, you can login with these demo accounts:
+
+| User | Email | Password | Projects | Role |
+|------|-------|----------|----------|------|
+| Alice Johnson | alice@example.com | password123 | Backend API | Maintainer |
+| Bob Smith | bob@example.com | password123 | Backend API | Member |
+| Charlie Davis | charlie@example.com | password123 | Frontend App | Maintainer |
+
+### Load Demo Data
+```bash
+cd backend
+python seed.py
+```
+
+This creates:
+- 3 demo users with sample credentials
+- 2 projects (Backend API, Frontend App)
+- 10 sample issues with various statuses and priorities
+- 6 comments demonstrating collaboration
+
+**Note:** Run seed script only once. Running multiple times will create duplicate data.
 
 ## 🧪 Running Tests
 
