@@ -101,7 +101,6 @@ backend/
 │   └── main.py              # FastAPI app
 ├── alembic/                 # Database migrations
 ├── tests/                   # Pytest tests
-└── seed.py                  # Demo data generator
 ```
 
 **Design Pattern:** Clean Architecture with clear separation of concerns
