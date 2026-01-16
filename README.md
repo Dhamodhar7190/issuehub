@@ -117,7 +117,6 @@ frontend/
 │   ├── components/          # Reusable components
 │   ├── context/             # React Context (Auth, Toast)
 │   ├── pages/               # Page components
-│   ├── utils/               # Helper functions
 │   ├── App.jsx              # Root component & routing
 │   └── main.jsx             # Entry point
 └── public/
