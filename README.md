@@ -434,49 +434,6 @@ issuehub/
 3. **No backup strategy** - Database backups not automated
 4. **Development environment only** - Not production-ready
 
-## 🚀 Future Improvements
-
-### High Priority
-1. **Email notifications** - Notify users of mentions, assignments, comments
-2. **Password reset flow** - Email-based password recovery
-3. **File attachments** - Support for images, logs, and documents
-4. **Real-time updates** - WebSocket integration for live collaboration
-5. **Advanced search** - Full-text search with Elasticsearch
-6. **Issue templates** - Predefined templates for bug reports, features
-7. **Activity feed** - Timeline of all project activities
-
-### Medium Priority
-8. **Pagination UI** - Add prev/next/page number buttons
-9. **Bulk operations** - Multi-select and bulk update issues
-10. **Issue dependencies** - Mark issues as blockers/blocked
-11. **Labels/tags** - Custom categorization beyond priority
-12. **Markdown support** - Rich text in descriptions and comments
-13. **@mentions** - Mention users in comments
-14. **Due dates** - Set and track deadlines
-15. **Saved filters** - Bookmark common filter combinations
-
-### Low Priority
-16. **Dark mode** - Theme toggle
-17. **Keyboard shortcuts** - Quick navigation and actions
-18. **Analytics dashboard** - Charts and metrics
-19. **Export functionality** - Export issues to CSV/JSON
-20. **API rate limiting** - Protect against abuse
-21. **Audit logs** - Track all changes for compliance
-22. **Mobile app** - Native iOS/Android apps
-23. **Integration APIs** - Webhooks, Slack, GitHub integration
-
-### Technical Debt
-- Increase test coverage to >80%
-- Add frontend tests (Jest + React Testing Library)
-- Add E2E tests (Playwright or Cypress)
-- Implement CI/CD pipeline
-- Add Docker Compose for easy local setup
-- Add API versioning (/api/v1/)
-- Implement proper logging with structured logs
-- Add monitoring (Sentry, DataDog)
-- Database connection pooling optimization
-- Implement caching (Redis) for frequently accessed data
-
 ## 👥 Team Roles Supported
 
 ### Member
@@ -493,24 +450,3 @@ issuehub/
 - Add/remove project members
 - Manage project settings
 
-## 🤝 Contributing
-
-This is a demonstration project for a coding assessment. For production use:
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes with clear messages
-4. Submit pull request with description
-
-## 📄 License
-
-This project is created for educational/assessment purposes.
-
-## 🙏 Acknowledgments
-
-- FastAPI for excellent documentation
-- React community for great tools and libraries
-- PostgreSQL for reliable data storage
-
----
-
-**Built with ❤️ for efficient team collaboration**
