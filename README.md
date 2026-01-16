@@ -21,6 +21,7 @@ A modern, full-stack bug tracking application built with FastAPI and React. Issu
 - [Project Structure](#-project-structure)
 - [Key Design Decisions](#-key-design-decisions)
 - [Known Limitations](#-known-limitations)
+- [Future Improvements](#-future-improvements)
 
 ## ✨ Features
 
@@ -458,6 +459,63 @@ issuehub/
 5. **Basic pagination UI** - Backend supports it, but no prev/next buttons in frontend
 6. **No issue history/audit log** - Can't see who changed what and when
 7. **No bulk operations** - Cannot bulk update or delete issues
+
+## 🚀 Future Improvements
+
+### High Priority (With More Time)
+1. **Email notifications** - Notify users of mentions, assignments, and comments
+2. **Password reset flow** - Email-based password recovery with secure tokens
+3. **File attachments** - Support for images, logs, and documents on issues
+4. **Real-time updates** - WebSocket integration for live collaboration
+5. **Advanced search** - Full-text search with Elasticsearch for better performance
+6. **Issue templates** - Predefined templates for bug reports and feature requests
+7. **Activity feed** - Timeline of all project activities and changes
+
+### Medium Priority
+8. **Pagination UI** - Add prev/next/page number buttons in issues list
+9. **Bulk operations** - Multi-select and bulk update/delete issues
+10. **Issue dependencies** - Mark issues as blockers or blocked by others
+11. **Labels/tags** - Custom categorization beyond priority levels
+12. **Markdown support** - Rich text formatting in descriptions and comments
+13. **@mentions** - Mention users in comments with notifications
+14. **Due dates** - Set and track deadlines for issues
+15. **Saved filters** - Bookmark and reuse common filter combinations
+
+### Low Priority
+16. **Dark mode** - Theme toggle for better accessibility
+17. **Keyboard shortcuts** - Quick navigation and actions (vim-style)
+18. **Analytics dashboard** - Charts and metrics for project insights
+19. **Export functionality** - Export issues to CSV/PDF/JSON
+20. **API rate limiting** - Protect against abuse and DDoS
+21. **Audit logs** - Complete history of who changed what and when
+22. **Mobile app** - Native iOS/Android applications
+23. **Integrations** - Webhooks, Slack, GitHub, Jira integration
+
+### Technical Improvements
+- Increase test coverage to >80% (currently ~60%)
+- Add frontend tests (Jest + React Testing Library)
+- Add E2E tests (Playwright or Cypress)
+- Implement CI/CD pipeline (GitHub Actions)
+- Add Docker Compose for easy local setup
+- Implement API versioning (/api/v1/)
+- Add structured logging (JSON logs with correlation IDs)
+- Add monitoring and alerting (Sentry, DataDog)
+- Implement caching layer (Redis) for frequently accessed data
+- Database query optimization and connection pooling
+- Add CDN for static assets
+- Implement progressive web app (PWA) features
+
+### Production Readiness
+- Set up staging and production environments
+- Implement automated database backups
+- Add health check endpoints for load balancers
+- Set up SSL/TLS certificates
+- Configure environment-specific settings
+- Add rate limiting and request throttling
+- Implement CORS policies per environment
+- Set up error tracking and monitoring
+- Create deployment documentation
+- Implement blue-green deployment strategy
 
 ### Security
 1. **No rate limiting** - API calls are not rate-limited
